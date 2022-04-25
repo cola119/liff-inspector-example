@@ -100,7 +100,7 @@ wss://xxxx-xxx-xxx.ngrok   # Copy this url`}</Code>
           {liOrigin && (
             <>
               <p>ChromeDevTools 👇 (Copy and Paste!)</p>
-              <p>devtools://devtools/bundled/inspector.html?{liOrigin}</p>
+              <p>devtools://devtools/bundled/inspector.html?{liOrigin}/?hi_id={liffId}</p>
             </>
           )}
         </MainContainer>
